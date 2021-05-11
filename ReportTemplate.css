@@ -1,0 +1,77 @@
+.A4 {
+    display:block;
+	margin-left: auto;
+	margin-right: auto;
+    width: 90%;
+    border: 1px burlywood solid;
+}
+
+.Company_Logo {
+    width:10em; 
+    display:inline
+}
+
+.Report_Title {
+    display:inline-block;
+    margin: 0;
+    position: absolute;
+    top: 10%;
+	left: 45%;
+	transform: translate(-10%, -45%);
+	white-space: nowrap;
+}
+
+.Banner {
+    height:8em;
+}
+
+.List_Container {
+    width: 49%;
+    display:inline-block
+}
+
+.List_Item {
+    display: block;
+    margin-left: 0.5em;
+}
+
+.Plot_Container {
+    width: 98%;
+    align-content: center;
+}
+
+.Sub_Heading1 {
+    background-color: rgb(230, 228, 228);
+}
+
+.Sub_Heading2 {
+    background-color: rgb(230, 228, 228);
+    text-align: center;
+}
+
+.Centered {
+    display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    }
+table td, table th {
+        border: 2px solid rgb(66, 143, 21);
+    }
+table tr:first-child th {
+    border-top: 0;
+    }
+table tr:last-child td {
+    border-bottom: 0;
+    }
+table tr td:first-child, table tr th:first-child {
+    border-left: 0;
+    }
+table tr td:last-child, table tr th:last-child {
+    border-right: 0;
+    }
