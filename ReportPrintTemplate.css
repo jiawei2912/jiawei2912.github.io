@@ -24,7 +24,7 @@
     display:block;
 	margin-left: auto;
 	margin-right: auto;
-    width: 90%;
+    width: 270mm;
     border: 1px #3E3D3D solid;
 }
 
@@ -52,10 +52,11 @@
     position: absolute;
     bottom: 0;
     right: 0;
+    display: none;
 }
 
-.Print_Spacing {
-    display: static;
+.Print_Spacing1 {
+    height:10em;
 }
 
 .Border1 {
@@ -71,11 +72,9 @@
     color: #FFFFFF;
 }
 
-
-
 .List_Container {
     width: 49%;
-    display:inline-block
+    display:inline-block;
 }
 
 .List_Item {
@@ -84,9 +83,10 @@
 }
 
 .Plot_Container {
-    width: 98%;
+    width: 260mm;
     align-content: center;
 }
+
 
 .Sub_Heading1 {
     background-color: #C9CfCB;
