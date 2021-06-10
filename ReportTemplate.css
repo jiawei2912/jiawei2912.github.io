@@ -25,16 +25,31 @@
 	margin-left: auto;
 	margin-right: auto;
     width: 90%;
-    border: 1px #3E3D3D solid;
+    /* border: 1px #3E3D3D solid; */
 }
 
 .Company_Logo {
-    width:10em; 
+    width:12em; 
     display:inline
 }
 
+.Header_Company_Logo {
+    width:12em; 
+    display:none
+}
+
+.Product_Logo {
+    width:8em;
+    display:inline-block;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 .Banner {
-    height:8em;
+    height:10em;
     position: relative;
 }
 
@@ -42,7 +57,7 @@
     display:inline-block;
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 82%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	white-space: nowrap;
@@ -81,9 +96,32 @@
     border: 1px #C9CfCB solid;
 }
 
-.Report_Header_Top {
+.Section_Heading {
     background-color: #BA1229;
     color: #FFFFFF;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.Section_Heading2 {
+    background-color:#C9F4B8;
+    text-align: center;
+    font-size: 1.1em;
+
+}
+
+tr {
+    height: 2em;
+}
+
+.Cell_Header {
+    text-align: left;
+    font-weight: bold;
+}
+
+.Cell_Body {
+    text-align: left;
+    font-weight: normal;
 }
 
 
@@ -100,7 +138,9 @@
 .Plot_Container {
     width: 98%;
     align-content: center;
+    border: 0;
 }
+
 
 .Sub_Heading1 {
     background-color: #C9CfCB;
@@ -125,16 +165,16 @@ table {
 table td, table th {
         border: 2px solid #3E3D3D;
     }
-table tr:first-child th {
+/* table tr:first-child th {
     border-top: 0;
-    }
-table tr:last-child td {
+    } */
+/* table tr:last-child td {
     border-bottom: 0;
-    }
-table tr td:first-child, table tr th:first-child {
+    } */
+/* table tr td:first-child, table tr th:first-child {
     border-left: 0;
     }
 table tr td:last-child, table tr th:last-child {
     border-right: 0;
-    }
+    } */
 
