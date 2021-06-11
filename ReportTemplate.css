@@ -167,7 +167,7 @@ tr {
 	border: 0;
 	width: 15em;
 	height: 2em;
-	display:block;
+	display:none;
     position:absolute;
     top: 0%;
     right: 0%;
