@@ -162,6 +162,18 @@ tr {
 	margin-right: auto;
 }
 
+.Toolbar_Print_Rectangle {
+	background-color: white;
+	border: 0;
+	width: 15em;
+	height: 2em;
+	display:block;
+    position:absolute;
+    top: 0%;
+    right: 0%;
+    transform: translate(0%, 0%);
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
