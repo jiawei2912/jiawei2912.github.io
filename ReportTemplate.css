@@ -39,17 +39,17 @@
 }
 
 .Product_Logo {
-    width:8em;
+    width:28em;
     display:inline-block;
     margin: 0;
     position: absolute;
-    top: 35%;
+    top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
 .Banner {
-    height:10em;
+    height:14em;
     position: relative;
 }
 
@@ -107,7 +107,10 @@
     background-color:#C9F4B8;
     text-align: center;
     font-size: 1.1em;
+}
 
+.Section_Cell {
+    text-align: left;
 }
 
 tr {
@@ -117,11 +120,13 @@ tr {
 .Cell_Header {
     text-align: left;
     font-weight: bold;
+    margin-left: 1em;
 }
 
 .Cell_Body {
     text-align: left;
     font-weight: normal;
+    margin-left: 1em;
 }
 
 
@@ -143,7 +148,6 @@ tr {
 
 .Plot_SubContainer {
     margin: 0;
-    margin-left:auto;
 }
 
 
