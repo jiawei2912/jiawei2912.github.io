@@ -1,5 +1,9 @@
 /* Colour Scheme https://coolors.co/ba1229-3e3d3d-c9f4b8-50a2a7-c9cfcb */
 
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .PrimaryColour {
     color: #BA1229
 }
